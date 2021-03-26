@@ -1,0 +1,11 @@
+{
+  "_fv": 17,
+  "_type": "command",
+  "definition": {
+    "commandName": "modemenu",
+    "permissionLevel": "No requirement",
+    "onCommandExecuted": {
+      "name": "ModemenuCommandMainProcedure"
+    }
+  }
+}

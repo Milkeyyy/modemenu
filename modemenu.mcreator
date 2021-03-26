@@ -1,0 +1,842 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "PlayerJoinTheWorldNotification",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "player_join_the_world_notification",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ModemenuCommand",
+      "type": "command",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "modemenu_command"
+    },
+    {
+      "name": "ModemenuCommandMainProcedure",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "modemenu_command_main",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MainGUI",
+      "type": "gui",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "main"
+    },
+    {
+      "name": "SetLangVariable",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "maingui_set_lang_variable",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChangePlayerGamemode",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "change_player_gamemode",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gamemode"
+    },
+    {
+      "name": "ChangePlayerGamemode0",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "change_player_gamemode_0",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gamemode"
+    },
+    {
+      "name": "ChangePlayerGamemode1",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "change_player_gamemode_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gamemode"
+    },
+    {
+      "name": "ChangePlayerGamemode2",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "change_player_gamemode_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gamemode"
+    },
+    {
+      "name": "ChangePlayerGamemode3",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "change_player_gamemode_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gamemode"
+    },
+    {
+      "name": "OpenMainguiKeyOnKeyPressed",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_maingui_key_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenMainguiKey",
+      "type": "keybind",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_maingui_key"
+    },
+    {
+      "name": "ChangeWorldTime",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "change_world_time",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Time"
+    },
+    {
+      "name": "ChangeWorldTime0",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "change_world_time_0",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Time"
+    },
+    {
+      "name": "ChangeWorldTime1",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "change_world_time_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Time"
+    },
+    {
+      "name": "ChangeWorldTime2",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "change_world_time_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Time"
+    },
+    {
+      "name": "AddWorldTime3",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "add_world_time_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Time"
+    },
+    {
+      "name": "ChangeWorldDifficulty",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "change_world_difficulty",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Difficulty"
+    },
+    {
+      "name": "ChangeWorldDifficulty0",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "change_world_difficulty_0",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Difficulty"
+    },
+    {
+      "name": "ChangeWorldDifficulty1",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "change_world_difficulty_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Difficulty"
+    },
+    {
+      "name": "ChangeWorldDifficulty2",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "change_world_difficulty_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Difficulty"
+    },
+    {
+      "name": "ChangeWorldDifficulty3",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "change_world_difficulty_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Difficulty"
+    },
+    {
+      "name": "ModServersideLoadedNotification",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mod_serverside_loaded_notification",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "MCWorldLoadedNotification",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mc_world_loaded_notification",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ClosePlayerGUI",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "close_player_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "maingui_player_select_difficulty",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    },
+    {
+      "name": "maingui_player_select_gamemode",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    },
+    {
+      "name": "maingui_player_select_time",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    },
+    {
+      "name": "builddate",
+      "type": "string",
+      "scope": "global",
+      "value": "2021/03/10"
+    },
+    {
+      "name": "buildversion",
+      "type": "string",
+      "scope": "global",
+      "value": "Test"
+    },
+    {
+      "name": "text_command_about_createdby",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "text_command_help_wip",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "text_command_version_installedversion",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "text_joinplayer_loaded",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "text_maingui_title_difficulty",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "text_maingui_title_gamemode",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "text_maingui_title_time",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "text_maingui_title_warntext1",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "text_message_changedifficulty",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "text_message_changedifficulty2",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "text_message_changegamemode",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "text_message_changegamemode2",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "text_message_openguineedpermission",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "text_message_timeadd",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "text_message_timeadd2",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "text_message_timeset",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "text_message_timeset2",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "version",
+      "type": "string",
+      "scope": "global",
+      "value": "1.0.0-test2"
+    },
+    {
+      "name": "text_command_invalid_command",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "text.modemenu.joinplayernotice.loaded": "§r has been loaded!",
+      "text.modemenu.maingui.title_difficulty": "Difficulty",
+      "text.modemenu.command_help.wip": "Help feature is under development ;)",
+      "text.modemenu.message.timeset2": "",
+      "text.modemenu.maingui.warntext1": "It is not recommended to use the current version of ModEMenu on servers.",
+      "text.modemenu.command.invalidcommand": "Invalid command parameter.",
+      "text.modemenu.message.timeset": "Time set to ",
+      "text.modemenu.message.changedifficulty": "Difficulty changed to ",
+      "text.modemenu.message.timeadd": "Added time ",
+      "text.modemenu.command_about.modemenu_version": "ModEMenu | Version §b",
+      "text.modemenu.message.changegamemode": "Gamemode changed to ",
+      "key.mcreator.open_maingui_key": "Open ModEMenu",
+      "text.modemenu.maingui.title_time": "Time",
+      "text.modemenu.message.changegamemode2": "",
+      "text.modemenu.message.timeadd2": "",
+      "text.modemenu.command_version.installedversion": "The version of ModEMenu installed is §b",
+      "key.categories.modemenu": "ModEMenu",
+      "key.modemenu.open_maingui_key": "Open ModEMenu",
+      "text.modemenu.maingui.title_gamemode": "Gamemode",
+      "text.modemenu.message.openguineedpermission": "OP level \"4\" or higher is required to use ModEMenu!",
+      "text.modemenu.message.changedifficulty2": "",
+      "text.modemenu.command_about.createdby": "§r | Created by §c§lMilkeyyy§r using §a§lMCreator"
+    },
+    "ja_jp": {
+      "text.modemenu.joinplayernotice.loaded": "§r がロードされました！",
+      "text.modemenu.maingui.title_difficulty": "難易度 (Difficulty)",
+      "text.modemenu.command_help.wip": "ヘルプ機能は開発中です ;_;",
+      "text.modemenu.message.timeset2": "へ変更しました",
+      "text.modemenu.maingui.warntext1": "現在のバージョンのModEMenuは言語関連の問題が存在するため、サーバー上での使用は推奨されていません。",
+      "text.modemenu.command.invalidcommand": "無効なコマンド引数です。",
+      "text.modemenu.message.timeset": "時刻を",
+      "text.modemenu.message.changedifficulty": "難易度を",
+      "text.modemenu.message.timeadd": "時刻を",
+      "text.modemenu.command_about.modemenu_version": "ModEMenu | バージョン §b",
+      "text.modemenu.message.changegamemode": "ゲームモードを",
+      "key.mcreator.open_maingui_key": "ModEMenuを開く",
+      "text.modemenu.maingui.title_time": "時刻 (Time set/add)",
+      "text.modemenu.message.changegamemode2": "へ変更しました",
+      "text.modemenu.message.timeadd2": "追加しました",
+      "text.modemenu.command_version.installedversion": "現在インストールされているバージョンは §b",
+      "key.categories.modemenu": "ModEMenu",
+      "key.modemenu.open_maingui_key": "Open ModEMenu",
+      "text.modemenu.maingui.title_gamemode": "ゲームモード (Gamemode)",
+      "text.modemenu.message.openguineedpermission": "ModEMenuを使用するには、OP権限レベル\"4\"以上が必要です！",
+      "text.modemenu.message.changedifficulty2": "へ変更しました",
+      "text.modemenu.command_about.createdby": "§r | Created by §c§lMilkeyyy§r (§a§lMCreator§rを使用して制作)"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Gamemode",
+        "children": []
+      },
+      {
+        "name": "Time",
+        "children": []
+      },
+      {
+        "name": "Difficulty",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "modemenu",
+    "modName": "ModEMenu",
+    "version": "1.0.0-test2",
+    "description": "You can easily change the player/world settings. | Changelog: http://bit.ly/momechlg",
+    "author": "Milkeyyy",
+    "websiteURL": "https://sites.google.com/view/milkeyyy/mods/modemenu",
+    "license": "Copyright 2021 Milkeyyy All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "updateURL": "https://www.dropbox.com/s/s8t2rsdfyu8z9ux/update.json?dl\u003d1",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created by Milkeyyy using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "mod.milkeyyy.modemenu",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100112313
+}

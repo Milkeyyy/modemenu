@@ -1,0 +1,261 @@
+{
+  "_fv": 17,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:text_maingui_title_gamemode>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "<VAR:text_maingui_title_gamemode>",
+          "x": 6,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:text_maingui_title_difficulty>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "<VAR:text_maingui_title_difficulty>",
+          "x": 6,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Creative",
+          "onClick": {
+            "name": "ChangePlayerGamemode1"
+          },
+          "width": 54,
+          "height": 20,
+          "name": "Creative",
+          "x": 60,
+          "y": 17
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Adventure",
+          "onClick": {
+            "name": "ChangePlayerGamemode2"
+          },
+          "width": 54,
+          "height": 20,
+          "name": "Adventure",
+          "x": 114,
+          "y": 17
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Survival",
+          "onClick": {
+            "name": "ChangePlayerGamemode0"
+          },
+          "width": 54,
+          "height": 20,
+          "name": "Survival",
+          "x": 6,
+          "y": 17
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Spectator",
+          "onClick": {
+            "name": "ChangePlayerGamemode3"
+          },
+          "width": 54,
+          "height": 20,
+          "name": "Spectator",
+          "x": 168,
+          "y": 17
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Peaceful",
+          "onClick": {
+            "name": "ChangeWorldDifficulty0"
+          },
+          "width": 54,
+          "height": 20,
+          "name": "Peaceful",
+          "x": 6,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Easy",
+          "onClick": {
+            "name": "ChangeWorldDifficulty1"
+          },
+          "width": 54,
+          "height": 20,
+          "name": "Easy",
+          "x": 60,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Normal",
+          "onClick": {
+            "name": "ChangeWorldDifficulty2"
+          },
+          "width": 54,
+          "height": 20,
+          "name": "Normal",
+          "x": 114,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Hard",
+          "onClick": {
+            "name": "ChangeWorldDifficulty3"
+          },
+          "width": 54,
+          "height": 20,
+          "name": "Hard",
+          "x": 168,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:text_maingui_title_time>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "<VAR:text_maingui_title_time>",
+          "x": 6,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Day",
+          "onClick": {
+            "name": "ChangeWorldTime0"
+          },
+          "width": 54,
+          "height": 20,
+          "name": "Day",
+          "x": 6,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Night",
+          "onClick": {
+            "name": "ChangeWorldTime1"
+          },
+          "width": 54,
+          "height": 20,
+          "name": "Night",
+          "x": 60,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Midnight",
+          "onClick": {
+            "name": "ChangeWorldTime2"
+          },
+          "width": 54,
+          "height": 20,
+          "name": "Midnight",
+          "x": 114,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "+1000",
+          "onClick": {
+            "name": "AddWorldTime3"
+          },
+          "width": 54,
+          "height": 20,
+          "name": "+1000",
+          "x": 168,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "ModEMenu v<VAR:version>",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "ModEMenu v<VAR:version>",
+          "x": 6,
+          "y": 215
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:text_maingui_title_warntext1>",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "<VAR:text_maingui_title_warntext1>",
+          "x": 6,
+          "y": 206
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:buildversion> Build (<VAR:builddate>)",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "<VAR:buildversion> Build (<VAR:builddate>)",
+          "x": 6,
+          "y": 224
+        }
+      }
+    ]
+  }
+}

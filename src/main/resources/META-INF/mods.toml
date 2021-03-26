@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Copyright 2021 Milkeyyy All Rights Reserved"
+
+[[mods]]
+modId="modemenu"
+version="1.0.0-test2"
+displayName="ModEMenu"
+credits="Created by Milkeyyy using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://sites.google.com/view/milkeyyy/mods/modemenu"
+updateJSONURL="https://www.dropbox.com/s/s8t2rsdfyu8z9ux/update.json?dl=1"
+authors="Milkeyyy"
+description='''
+You can easily change the player/world settings. | Changelog: http://bit.ly/momechlg
+'''
+
+[[dependencies.modemenu]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
